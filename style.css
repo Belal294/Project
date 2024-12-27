@@ -1,0 +1,184 @@
+
+
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+
+  .header-section {
+
+    z-index: 1000;
+  }
+  
+  .belal {
+    width: 80px;
+    height: auto;
+  }
+  
+  .nav-item a {
+    color: white;
+  }
+  
+  .nav-item a:hover {
+    color: rgb(71, 111, 199);
+  }
+  
+  .btn-icon {
+    background-color: rgb(100, 157, 231);
+  }
+  
+
+  .home {
+    background-color: rgba(45, 216, 216, 0.692);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .home-content {
+    max-width: 600px;
+  }
+  
+  .home-content h1 span {
+    color: #007bff;
+  }
+  
+  .home-img img {
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+  }
+  
+  @media (max-width: 768px) {
+    .home {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .home-content {
+      margin-bottom: 20px;
+    }
+  
+    .home-img img {
+      max-width: 200px;
+    }
+  }
+  
+
+  .about {
+    padding: 50px 20px;
+  }
+  
+  .about img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .about h3 {
+    color: #007bff;
+  }
+  
+
+  .services .card {
+    border: none;
+    text-align: center;
+  }
+  
+  .services .card-body i {
+    font-size: 3rem;
+    margin-bottom: 15px;
+    color: #007bff;
+  }
+  
+
+  .portfolio-box {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+  }
+  
+  .portfolio-box img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+  }
+  
+  .portfolio-box:hover img {
+    transform: scale(1.1);
+  }
+  
+  .portfolio-layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.3s ease;
+  }
+  
+  .portfolio-box:hover .portfolio-layer {
+    opacity: 1;
+  }
+
+  .contact form {
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .contact form input,
+  .contact form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .contact form button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .contact form button:hover {
+    background-color: #0056b3;
+  }
+  
+ 
+  .footer {
+    background-color: rgba(0, 0, 0, 0.9);
+    text-align: center;
+    padding: 10px 20px;
+  }
+  
+  .footer-iconTop a {
+    color: white;
+    margin: 0 10px;
+    font-size: 1.5rem;
+  }
+  
+  .footer-iconTop a:hover {
+    color: #007bff;
+  }
+  
+
+  .read-more{
+    margin-top: 10px;
+  }
+
